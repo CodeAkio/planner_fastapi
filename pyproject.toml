@@ -12,6 +12,7 @@ uvicorn = "^0.30.1"
 sqlmodel = "^0.0.19"
 pydantic = {extras = ["email"], version = "^2.7.4"}
 beanie = "^1.26.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 
 
 [build-system]
